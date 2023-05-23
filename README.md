@@ -36,3 +36,17 @@ Instalar o eslint e editorconfig, para manter um padrão de codificação
 Instalar as ferramentas para rodar o servidor com as alterações
  - [ ] `yarn add -D ts-node `
  - [ ] `npm i --save-dev -D nodemon`
+
+#### Iniciando o sistema
+
+ - [ ] No primeiro terminal acesse com os seguintes códigos
+ 	- [ ] npm i -g yarn
+ 	- [ ] yarn init -y
+ 	- [ ] yarn add D typescritpt
+ 	- [ ] yarn dev 
+
+- [ ] Num segundo termimal acesse os seguintes códigos
+	- [ ] docker run -p 27017:27017 mongo
+
+- [ ] Abrir o insomia
+	- [ ] criar  
