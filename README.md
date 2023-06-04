@@ -48,7 +48,9 @@ Abra outro terminal com o diretorio do arquivo e digite o comando
 docker run -p 27017:27017 mongo
 Volte ao primeiro terminal e digite o comando
 yarn devl<br>
+
 Passo 2<br>
+
 Abra o Insomnia em seu computador e crie um novo espaço de trabalho ou utilize um existente.
 Clique em "Create" e selecione "New Request" para criar uma nova requisição.
 Selecione o método POST na barra de seleção de método.
@@ -65,7 +67,9 @@ Selecione o método GET na barra de seleção de método.
 No campo de URL, insira
 https://localhost:300/categories
 Clique no botão "Send" para enviar a requisição GET e verifique se as categorias estão listadas corretamente.<br>
+
 Passo 3<br>
+
 Clique novamente em "Create" e selecione "New Request" para criar uma nova requisição.
 Selecione o método POST na barra de seleção de método.
 No campo de URL, insira
@@ -81,5 +85,7 @@ Crie uma nova requisição GET como feito anteriormente.
 No campo de URL, insira novamente a forma Multipast Form
 https://localhost:300/products
 Clique no botão "Send" para enviar a requisição GET e obter a lista de produtos<br>
+
 Passo 4<br>
+
 Retorne ao terminal com o diretorio do projeto e digite o comando npm multer
